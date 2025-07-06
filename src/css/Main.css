@@ -6892,6 +6892,10 @@ tbody tr td:last-child {
 .filter-action .active i:hover {
   color: var(--white);
 }
+.slick-prev,
+.slick-next {
+  z-index: 100 !important;
+}
 
 @media (max-width: 575px) {
   .filter-label,
